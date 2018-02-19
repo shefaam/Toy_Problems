@@ -1,4 +1,4 @@
-// Write a function called  averageAge that accpets an array of objects and return the average ages for the people how are between 18 and 50
+// Write a function called  averageAge that accpets an array of objects and return the average ages for the people who are between 18 and 50
  
 
  var people = [ 
