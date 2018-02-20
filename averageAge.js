@@ -11,7 +11,15 @@
        {name: {first: 'Obada', last: 'Eddin'}, age: 24} 
  ]; 
  function averageAge(people) { 
-       // YOUR CODE HERE 
+       var avAge=[];
+       var s = 0 ;
+       each(people , function(x){
+       	if(x.age>=18 && x.age<=50 ){
+       		return s = s + x.age;
+       		avAge.push(x.age);
+       	}
+       });
+       return s/avAge.length;
  }
 
- averageAge(people); // 43+36+44+24 = 36.74
+ averageAge(people); // 43+36+44+24 = 36.74 6.    
